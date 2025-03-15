@@ -1,4 +1,16 @@
-package PACKAGE_NAME;
+public class StaticBlocksChild extends StaticBlocks {
 
-public class StaticBlocksChild {
+    {
+        System.out.println("Init block child 1");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Inside the main method");
+        StaticBlocksChild obj1 = new StaticBlocksChild();
+        
+    }
+
+    static{
+        System.out.println("Static block child 1");
+    }
 }
