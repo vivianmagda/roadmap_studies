@@ -1,3 +1,4 @@
+package blocks;
 public class StaticBlocks {
 
     public void greet(){
